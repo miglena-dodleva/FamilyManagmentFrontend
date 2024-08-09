@@ -1,0 +1,66 @@
+.home {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 2%;
+}
+
+.App {
+  display: block;
+  margin-left: -0.5%;
+  margin-right: 0%;
+  width: 101%;
+  margin-top: -0.5%;
+}
+
+/* Във вашия глобален CSS файл, например App.css */
+/* Във вашия глобален CSS файл, например App.css */
+/* Във вашия глобален CSS файл, например App.css */
+.md-tooltip {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  z-index: 100; /* Уверете се, че има висок z-index */
+  position: absolute; /* Абсолютно позициониране */
+}
+
+.md-tooltip-header {
+  padding: 10px;
+  color: #333;
+  font-weight: bold;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.md-tooltip-info {
+  padding: 10px;
+}
+
+.md-tooltip-title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.md-tooltip-text {
+  font-weight: normal; 
+}
+
+
+.md-tooltip-view-button, .md-tooltip-delete-button {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 80px;
+}
+
+
+.md-tooltip-close-button {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 0;
+  color: #333;
+}
